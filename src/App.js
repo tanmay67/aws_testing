@@ -11,6 +11,7 @@ function App() {
   if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
     // development build code
     console.log("dev environment")
+    
   } else {
     // production build code
     console.log("prod environment")
